@@ -45,9 +45,6 @@ def frame_1():
     else:
         root.bind("<Key-Return>", call)
 
-def nothing(event):
-    pass
-
 def frame_2():
     frame2 = tk.Frame(root,background="#111111")
     frame2.place(relwidth=1, relheight=1)
@@ -131,3 +128,6 @@ def clear():
 
 def dest(event):
     root.destroy()
+
+def nothing(event):
+    pass
